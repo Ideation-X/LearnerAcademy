@@ -1,0 +1,16 @@
+.side-baar{
+    background: #000;
+    position: fixed;
+    top: 55px;
+    left : 0;
+    bottom: 0;
+    width : 220px;
+ }
+ .student-banner-images{
+    top: 60;
+    left: 250px;
+    background-color:lightpink;
+    right : 0;
+    height: 500px;
+    color : black;
+ }
