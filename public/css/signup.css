@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #9200fb;
+    display: flex;
+    justify-content: center;
+
+}
+#signup-container{
+    text-align: center;
+    top: 150px;
+    position: relative;
+    background: rgb(199, 219, 227);
+    width: 450px;
+    height: 400px;
+    padding-top: 20px;
+    border-radius: 20px;;
+
+}
+
+#all-inputs{
+    display: grid;
+    padding-left: 50px; 
+    padding-right: 70px;
+    gap: 20px;
+    margin-bottom: 10px;;
+}
+#all-inputs div{
+    border-radius: 20px;
+
+}
+#all-inputs input{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;;
+    background: white;
+}
+
+
+.Btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#create-account-btn{
+    border: none;
+    background: rgb(146,0,251);
+    background: linear-gradient(47deg, rgba(146,0,251,1) 47%, rgba(15,42,248,1) 100%);
+    color : white;
+    padding: 10px;;
+    border-radius: 20px;
+    width: 200px;
+}
+#login-btn a{
+    text-decoration: none;
+    color: #9200fb;
+
+}
