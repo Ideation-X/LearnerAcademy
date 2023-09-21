@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .left {
+    width: 40%;
+    justify-content: center;
+    text-align: center;
+}
+.container .left form {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+.container .left form input,
+select {
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.container .left form select {
+    width: 85%;
+}
+
+.container form button {
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#logo {
+    height: 150px;
+    margin-top: 30px;
+}
+
+.container .right {
+    background: skyblue;
+    backface-visibility: initial;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    width: 60%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.container .right h2 {
+    margin-top: 50px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.container .right h1 {
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.container .right p {
+    margin: 20px 50px;
+    font-size: 20px;
+}
+
+.container .right button {
+    margin: 50px;
+    padding: 10px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}

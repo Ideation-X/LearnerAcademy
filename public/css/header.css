@@ -1,0 +1,142 @@
+body {
+    padding-left: 220px;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+header {
+    font-family: 'Roboto Flex', sans-serif;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 80;
+    display: flex;
+    /* background-color: black; */
+    height: 55px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.left-header {
+    background-color: aqua;
+    width : 220px;
+    display: flex;
+    align-items: center;
+}
+.middle-header {
+    /* background-color:aquamarine; */
+    flex-direction: row;
+    display : flex;
+    align-items: center;
+    justify-content: space-around;
+    flex: 1;
+    border-right: 0.4px solid rgb(215, 215, 215);
+ 
+
+}
+.middle-header a {
+    text-decoration: none;
+    color : black;
+    font-size: 15px;;
+
+}
+
+.middle-header a::before {
+    content: '';
+    position: absolute;
+    background-color: red;
+    left: 0;
+    right: 0
+
+}
+.middle-header a:hover::before,
+.middle-header a:focus::before{
+    transform: scaleX(1);
+
+
+}
+
+
+
+/* .middle-header a::before{
+    content: '';
+    position : absolute;
+    background-color: rgb(248, 172, 59);
+    top : 91%;
+    left : 0;
+    right : 0;
+    bottom: 0;
+    transition: transform 300ms ease-in-out;
+    transform: scaleX(0);
+}
+
+.middle-header a:hover::before,
+.middle-header a:focus::before{
+    transform: scaleX(1);
+} */
+
+
+
+.right-header {
+    /* background-color: bisque; */
+    width : 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.user-name-icon 
+{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    
+}
+
+
+.user-name-icon img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#down-arrow-btn {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#profile-dropdown-container {
+    display: none;
+    position: absolute;
+    top: 100%;;
+    left: 0;
+    width: 200px;
+    background: white;
+    border-top: 2px solid gray;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+}
+
+#profile-dropdown-container ul li{
+    list-style: none;
+    padding: 15px;
+    cursor: pointer;
+}
+
+#profile-dropdown-container ul li:hover {
+    background: rgb(231, 231, 231);
+}
+
+
+.fa-user,
+.fa-arrow-right-from-bracket{
+    margin-right: 20px;;
+}
