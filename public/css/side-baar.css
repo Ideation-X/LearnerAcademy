@@ -35,3 +35,14 @@
 .side-baar ul a i {
   margin-right: 10px;
 }
+
+.content div {
+  text-align: center;
+  margin-top: 6rem;
+  display: none;
+}
+
+.content p{
+  margin: 1.5rem 3rem;
+  text-align: center;
+}
