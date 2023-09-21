@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 850px;
 }
 
 .container .left {
@@ -9,6 +10,7 @@
     justify-content: center;
     text-align: center;
 }
+
 .container .left form {
     display: flex;
     flex-direction: column;
@@ -49,7 +51,6 @@ select {
 
 .container .right {
     background: skyblue;
-    backface-visibility: initial;
     display: flex;
     flex-direction: column;
     align-items: center;
