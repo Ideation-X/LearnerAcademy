@@ -24,6 +24,8 @@ header {
     width : 220px;
     display: flex;
     align-items: center;
+    padding: 10px;
+    font-weight: 700;
 }
 .middle-header {
     /* background-color:aquamarine; */
