@@ -122,6 +122,10 @@ header {
     border-top: 2px solid gray;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    box-shadow: 0 6px 10px rgb(184, 184, 184);
+
 
 }
 
@@ -129,6 +133,7 @@ header {
     list-style: none;
     padding: 15px;
     cursor: pointer;
+
 }
 
 #profile-dropdown-container ul li:hover {
