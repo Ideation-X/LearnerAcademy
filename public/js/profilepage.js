@@ -52,7 +52,7 @@ function closeTheProfileWindow () {
     const profileContainer = document.getElementById('profile-page')
     profileContainer.style.display = 'none';
 }
-
+// closeTheProfileWindow function close the profile page when user click on the cross btn
 const crossBtn  = document.getElementById('profile-back-btn')
 
 crossBtn.addEventListener('click', closeTheProfileWindow)
