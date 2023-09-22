@@ -122,7 +122,8 @@ header {
 }
 
 #profile-dropdown-container ul li:hover {
-    background: rgb(231, 231, 231);
+    background: rgb(224, 224, 224);
+    opacity: 0.9;
 }
 
 
