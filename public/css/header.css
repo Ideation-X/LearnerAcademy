@@ -8,6 +8,7 @@
 
 body {
     padding-left: 220px;
+    /* background: #000; */
 }
 
 * {
@@ -22,10 +23,11 @@ header {
     left: 0;
     z-index: 80;
     display: flex;
-    /* background-color: black; */
+    border-bottom: 0.3px solid rgb(205, 205, 205);
     height: 55px;
     flex-direction: row;
     justify-content: space-between;
+    background: white;;
 }
 .left-header {
     background-color: aqua;
@@ -49,8 +51,8 @@ header {
 }
 .middle-header a {
     text-decoration: none;
-    color : black;
-    font-size: 20px;
+    color : rgb(60, 60, 60);
+    font-size: 15px;
 
 }
 
@@ -60,42 +62,6 @@ header {
     padding: 5px 10px;
     border-radius: 10px;
 }
-
-.middle-header a::before {
-    content: '';
-    position: absolute;
-    background-color: red;
-    left: 0;
-    right: 0
-
-}
-.middle-header a:hover::before,
-.middle-header a:focus::before{
-    transform: scaleX(1);
-
-
-}
-
-
-
-/* .middle-header a::before{
-    content: '';
-    position : absolute;
-    background-color: rgb(248, 172, 59);
-    top : 91%;
-    left : 0;
-    right : 0;
-    bottom: 0;
-    transition: transform 300ms ease-in-out;
-    transform: scaleX(0);
-}
-
-.middle-header a:hover::before,
-.middle-header a:focus::before{
-    transform: scaleX(1);
-} */
-
-
 
 .right-header {
     /* background-color: bisque; */
@@ -135,11 +101,11 @@ header {
     position: absolute;
     top: 100%;;
     left: 0;
-    width: 200px;
+    width: 170px;
     background: white;
     border-top: 2px solid gray;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
     border-left: 1px solid gray;
     border-right: 1px solid gray;
     box-shadow: 0 6px 10px rgb(184, 184, 184);
@@ -151,6 +117,7 @@ header {
     list-style: none;
     padding: 15px;
     cursor: pointer;
+
 
 }
 
