@@ -1,3 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
 body {
     padding-left: 220px;
 }
@@ -21,15 +29,18 @@ header {
 }
 .left-header {
     background-color: aqua;
-    width : 220px;
+    width : 200px;
     display: flex;
     align-items: center;
+    padding: 10px;
+    font-weight: 700;
 }
 .middle-header {
     /* background-color:aquamarine; */
     flex-direction: row;
     display : flex;
     align-items: center;
+    font-weight: 900;
     justify-content: space-around;
     flex: 1;
     border-right: 0.4px solid rgb(215, 215, 215);
@@ -39,8 +50,15 @@ header {
 .middle-header a {
     text-decoration: none;
     color : black;
-    font-size: 15px;;
+    font-size: 20px;
 
+}
+
+.middle-header a:hover{
+    color: rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 10px;
 }
 
 .middle-header a::before {
@@ -122,6 +140,10 @@ header {
     border-top: 2px solid gray;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+    box-shadow: 0 6px 10px rgb(184, 184, 184);
+
 
 }
 
@@ -129,6 +151,7 @@ header {
     list-style: none;
     padding: 15px;
     cursor: pointer;
+
 }
 
 #profile-dropdown-container ul li:hover {
