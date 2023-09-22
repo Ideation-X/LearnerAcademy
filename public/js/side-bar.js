@@ -77,7 +77,7 @@ function goToMainPage() {
 
     //first convert the each container inside content div to array from HTML collection
     const divContainerArray = Array.from(divContainer)
-    //now each child container dsiplay property should be none , when I am clicking on the go back button
+    //now each child container display property should be none , when I am clicking on the go back button
     divContainerArray.forEach(container => {
         container.style.display = 'none'
 
