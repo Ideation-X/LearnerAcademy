@@ -1,10 +1,6 @@
 
 function openProfileDropdownMenu (){
-    
     const container = document.getElementById('profile-dropdown-container')
-   
-
-
     if (container.style.display === 'none') {
         container.style.display = 'block'
 
@@ -37,10 +33,7 @@ const profile_btn = document.getElementById('profile-btn')
 profile_btn.addEventListener('click', openProfilePage)
 
 
-// once user click any where on main container drop-down should be pop out
-
-
-
+// once user click any where on main container, drop-down should be pop out
 function dropDownPopOut() {
     const container = document.getElementById('profile-dropdown-container')
     container.style.display = 'none'
@@ -48,5 +41,18 @@ function dropDownPopOut() {
 }
 const mainContainer = document.getElementById('hero-section')
 mainContainer.addEventListener('click', dropDownPopOut)
+
+// if user click any where on the resourse/content page, profile dropdown should be close .
 const resourceContainer = document.getElementById('content')
 resourceContainer.addEventListener('click', dropDownPopOut)
+
+
+function closeTheProfileWindow () {
+    console.log('hello')
+    const profileContainer = document.getElementById('profile-page')
+    profileContainer.style.display = 'none';
+}
+// closeTheProfileWindow function close the profile page when user click on the cross btn
+const crossBtn  = document.getElementById('profile-back-btn')
+
+crossBtn.addEventListener('click', closeTheProfileWindow)
