@@ -1,4 +1,4 @@
-.hero-section{
+#hero-section{
     position: relative;
     top: 55px;
     background-color: blanchedalmond;
@@ -32,7 +32,9 @@
     right: 0;
     left: 0;
     padding: 10px;
-    z-index: 50;
+    z-index: 60;
+    background: red;
+    /* height: calc(100% - 55px); */
 }
 
 .profile-content-container{
@@ -43,9 +45,9 @@
     background: white;
     padding-top: 70px;
     padding-bottom: 70px;
-
     border-radius: 10px;
     border: 0.3px solid rgb(201, 201, 201);
+    
 
 
 
