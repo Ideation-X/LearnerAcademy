@@ -31,10 +31,12 @@
     top: 0px;
     right: 0;
     left: 0;
-    padding: 10px;
+    padding: 20px;
     z-index: 60;
-    background: red;
-    /* height: calc(100% - 55px); */
+    background: white;
+    padding-bottom: 198px;;
+
+ 
 }
 
 .profile-content-container{
@@ -47,6 +49,9 @@
     padding-bottom: 70px;
     border-radius: 10px;
     border: 0.3px solid rgb(201, 201, 201);
+    margin-top: -23px;;
+    box-shadow: 0 6px 10px rgb(184, 184, 184);
+
     
 
 
@@ -72,7 +77,6 @@
     margin-bottom: 5px;;
 }
 .image-container{
-    
     padding-top: 15px;;
 }
 
@@ -154,4 +158,10 @@
     width : 90px;
     height: 90px;
     border-radius: 50px;;
+}
+#profile-back-btn {
+    padding: 6px 8px 6px 8px;
+    margin-bottom: -20px;
+ 
+    cursor: pointer;
 }
