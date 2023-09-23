@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // STUDY MATERIAL
 
 $("#s-m").click(() => {
@@ -119,11 +120,11 @@ $("#c-u").click(() => {
 });
 
 console.log("side baar .js");
+=======
+>>>>>>> 3430e6b689f6f39ca5cad7f5d7ebffb0dee0cf0f
 
 function goToMainPage() {
-  const divContainer = document.getElementsByClassName(
-    "go_back_functionallity"
-  );
+  const divContainer = document.getElementsByClassName("go_back_functionallity");
 
   //first convert the each container inside content div to array from HTML collection
   const divContainerArray = Array.from(divContainer);
