@@ -106,16 +106,16 @@ $("#h-p").click(() => {
 // CONTACT US
 
 $("#c-u").click(() => {
-    $(".hero-section").hide();
-    $(".content div").hide();
-     $(".study-material").hide();
-    $(".financial-resources").hide();
-    $(".roadmap").hide();
-    $(".test-series").hide();
-    $(".books").hide();
-    $(".quiz").hide();
-    $(".help").hide();
-    $(".contact-us").show();
+  $(".hero-section").hide();
+  $(".content div").hide();
+   $(".study-material").hide();
+  $(".financial-resources").hide();
+  $(".roadmap").hide();
+  $(".test-series").hide();
+  $(".books").hide();
+  $(".quiz").hide();
+  $(".help").hide();
+  $(".contact-us").show();
 });
 
 console.log("side baar .js");
