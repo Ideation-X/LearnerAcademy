@@ -1,4 +1,4 @@
-
+// below function open up the profile drop down
 function openProfileDropdownMenu (){
     const container = document.getElementById('profile-dropdown-container')
     if (container.style.display === 'none') {
@@ -15,6 +15,7 @@ function openProfileDropdownMenu (){
 const downBtn = document.getElementById('down-arrow-btn')
 downBtn.addEventListener('click', openProfileDropdownMenu)
 
+// below function open up the profile page
 function openProfilePage() {
     const container = document.getElementById('profile-page')
     if (container.style.display === 'none') {
@@ -25,8 +26,6 @@ function openProfilePage() {
         container.style.display = 'none'
 
     }
-    
-
 }
 
 const profile_btn = document.getElementById('profile-btn')
@@ -54,5 +53,4 @@ function closeTheProfileWindow () {
 }
 // closeTheProfileWindow function close the profile page when user click on the cross btn
 const crossBtn  = document.getElementById('profile-back-btn')
-
 crossBtn.addEventListener('click', closeTheProfileWindow)
