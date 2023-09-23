@@ -8,7 +8,7 @@
 
 body {
     padding-left: 220px;
-    /* background: #000; */
+  
 }
 
 * {
@@ -109,16 +109,12 @@ header {
     border-left: 1px solid gray;
     border-right: 1px solid gray;
     box-shadow: 0 6px 10px rgb(184, 184, 184);
-
-
 }
 
 #profile-dropdown-container ul li{
     list-style: none;
     padding: 15px;
     cursor: pointer;
-
-
 }
 
 #profile-dropdown-container ul li:hover {
@@ -129,5 +125,5 @@ header {
 
 .fa-user,
 .fa-arrow-right-from-bracket{
-    margin-right: 20px;;
+    margin-right: 20px;
 }
