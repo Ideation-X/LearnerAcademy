@@ -1,192 +1,874 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <base href="/src/" />
+        <title>Study material</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link rel="stylesheet" href="/public/css/header.css" />
+        <link rel="stylesheet" href="/public/css/side-baar.css" />
+        <link rel="stylesheet" href="/public/css/herosection.css" />
+        <link rel="stylesheet" href="/public/css/roadmap.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <base href="/src/">
-    <title>Study material</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="/public/css/header.css" />
-    <link rel="stylesheet" href="/public/css/side-baar.css" />
-    <link rel="stylesheet" href="/public/css/herosection.css" />
-</head>
-
-<body>
-    <div class="main-container">
-        <header>
-            <div class="left-header">
-                <div>LOGO</div>
-            </div>
-
-            <div class="middle-header">
-                <div><a href="#">Home</a></div>
-                <div><a href="#">About Us</a></div>
-                <div><a href="#">Loans</a></div>
-                <div><a href="#">Help</a></div>
-            </div>
-
-            <div class="right-header">
-                <div class="user-name-icon">
-
-                    <div style="font-size: 14px">
-                        Hi, <span style="font-size: 14px">Username</span>
-                    </div>
-
-                    <div id="user-icon">
-                        <img src="/public/images/profileLogo.png" alt="User Profile" />
-                    </div>
-
-                    <div id="down-arrow-btn">
-                        <i class="fa-solid fa-angle-down fa-xs" style="color: #080808"></i>
-                    </div>
-
+    <body>
+        <div class="main-container">
+            <header>
+                <div class="left-header">
+                    <div>LOGO</div>
                 </div>
 
-                <div id="profile-dropdown-container">
-                    <ul>
-                        <li id="profile-btn" style="border-bottom: 2px solid gray">
-                            <i class="fa-solid fa-user" style="color: #000000"></i><span>Profille</span>
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-arrow-right-from-bracket" style="color: #050505"></i>
-                            <span>Logout</span>
-                        </li>
-                    </ul>
+                <div class="middle-header">
+                    <div><a href="#">Home</a></div>
+                    <div><a href="#">About Us</a></div>
+                    <div><a href="#">Loans</a></div>
+                    <div><a href="#">Help</a></div>
                 </div>
+
+                <div class="right-header">
+                    <div class="user-name-icon">
+                        <div style="font-size: 14px">
+                            Hi, <span style="font-size: 14px">Username</span>
+                        </div>
+
+                        <div id="user-icon">
+                            <img
+                                src="/public/images/profileLogo.png"
+                                alt="User Profile"
+                            />
+                        </div>
+
+                        <div id="down-arrow-btn">
+                            <i
+                                class="fa-solid fa-angle-down fa-xs"
+                                style="color: #080808"
+                            ></i>
+                        </div>
+                    </div>
+
+                    <div id="profile-dropdown-container">
+                        <ul>
+                            <li
+                                id="profile-btn"
+                                style="border-bottom: 2px solid gray"
+                            >
+                                <i
+                                    class="fa-solid fa-user"
+                                    style="color: #000000"
+                                ></i
+                                ><span>Profille</span>
+                            </li>
+
+                            <li>
+                                <i
+                                    class="fa-solid fa-arrow-right-from-bracket"
+                                    style="color: #050505"
+                                ></i>
+                                <span>Logout</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </header>
+
+            <div class="side-baar">
+                <ul>
+                    <li class="side-baar-list">
+                        <a href="/src/studymaterial.html" id="s-m"
+                            ><i class="fa-solid fa-school"></i>Study Material</a
+                        >
+                    </li>
+
+                    <li class="side-baar-list">
+                        <a href="#" id="f-r"
+                            ><i class="fa-solid fa-coins"></i>Financial
+                            Resources</a
+                        >
+                    </li>
+
+                    <li class="side-baar-list">
+                        <a href="#" id="r-m"
+                            ><i class="far fa-map"></i>Roadmap</a
+                        >
+                    </li>
+
+                    <li class="side-baar-list">
+                        <a href="#" id="t-s"
+                            ><i class="fa-regular fa-file-lines"></i>Test
+                            Series</a
+                        >
+                    </li>
+
+                    <li class="side-baar-list">
+                        <a href="#" id="b-k"
+                            ><i class="fa-solid fa-book"></i>Books</a
+                        >
+                    </li>
+
+                    <li class="side-baar-list">
+                        <a href="#" id="q-z"
+                            ><i class="fa-regular fa-circle-question"></i
+                            >Quiz</a
+                        >
+                    </li>
+
+                    <li class="side-baar-list">
+                        <a href="#" id="h-p"
+                            ><i class="fa-solid fa-circle-info"></i>Help</a
+                        >
+                    </li>
+
+                    <li class="side-baar-list">
+                        <a href="#" id="c-u"
+                            ><i class="fa-regular fa-address-card"></i>Contact
+                            Us</a
+                        >
+                    </li>
+                </ul>
             </div>
-        </header>
 
-        <div class="side-baar">
-            <ul>
-                <li class = "side-baar-list">
-                    <a href="/src/studymaterial.html" id="s-m"><i class="fa-solid fa-school"></i>Study Material</a>
-                </li>
+            <div id="hero-section">
+                <div>
+                    <h1>ROADMAP</h1>
+                    <div class="roadmap-subjects">
+                        <div id="subjects">
+                            <h2>Physics</h2>
+                            <div id="units">
+                                <div id="chapters">
+                                    <h4>I - Electrostatics</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Physics"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 1 : Electric Charges and
+                                        Fields
+                                    </div>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Physics"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 2 : Electrostatic Potential
+                                        and Capacitance
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>II - Current Electricity</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Physics"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 3 : Current Electricity
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>
+                                        III - Magnetic Effect of Current &
+                                        Magnetism
+                                    </h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Physics"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 4 : Moving Charges and
+                                        Magnetism
+                                    </div>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Physics"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 5 : Magnetism and Matter
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>
+                                        IV - Electromagnetic Induction &
+                                        Alternating Current
+                                    </h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Physics"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 6 : Electromagnetic Induction
+                                    </div>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Physics"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 7 : Alternating Current
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>V - Electromagnetic Waves</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Physics"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 8 : Electromagnetic Waves
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>VI - Optics</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Physics"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 9 : Ray Optics and Optical
+                                        Instruments
+                                    </div>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Physics"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 10 : Wave Optics
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>VII - Dual Nature of Matter</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Physics"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 11 : Dual Nature of Radiation
+                                        and Matter
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>VIII - Atoms & Nuclei</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Physics"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 12 : Atoms
+                                    </div>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Physics"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 13 : Nuclei
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>IX - Electronic Devices</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Physics"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 14 : Semiconductor Electronics
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>X - Communication Systems</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Physics"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 15 : Communication Systems
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="subjects">
+                            <h2>Chemistry</h2>
+                            <div id="units">
+                                <div id="chapters">
+                                    <h4>I - Solid State</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Chemistry"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 1 : Solid State
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>II - Solutions</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Chemistry"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 2 : Solutions
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>III - Electrochemistry</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Chemistry"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 3 : Electrochemistry
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>IV - Chemical Kinetics</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Chemistry"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 4 : Chemical Kinetics
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>V - Surface Chemistry</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Chemistry"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 5 : Surface Chemistry
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>VI - Isolation of Elements</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Chemistry"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 6 : Isolation of Elements
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>VII - p-Block Elements</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Chemistry"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 7 : p-Block Elements
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>VIII - d-and f-Block Elements</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Chemistry"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 8 : d-and f-Block Elements
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>IX - Coordination Compounds</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Chemistry"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 9 : Coordination Compounds
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>X - Haloalkanes and Haloarenes</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Chemistry"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 10 : Haloalkanes and
+                                        Haloarenes
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>XI - Alcohols, Phenols & Ethers</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Chemistry"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 11 : Alcohols, Phenols &
+                                        Ethers
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>
+                                        XII - Aldhydes, Ketones & Carboxylic
+                                        Acids
+                                    </h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Chemistry"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 12 : Aldhydes, Ketones &
+                                        Carboxylic Acids
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>
+                                        XII - Organic Compounds containing
+                                        Nitrogen
+                                    </h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Chemistry"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 13 : Organic Compounds
+                                        containing Nitrogen
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>XIV - Biomolecules</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Chemistry"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 14 : Biomolecules
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>XV - Polymers</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Chemistry"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 15 : Polymers
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>XVI - Chemistry in Everyday Life</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="Chemistry"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 16 : Chemistry in Everyday
+                                        Life
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="subjects">
+                            <h2>Maths</h2>
+                            <div id="units">
+                                <div id="chapters">
+                                    <h4>I - Relations and Functions</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="maths"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 1 : Relations and Functions
+                                    </div>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="maths"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 2 : Inverse Trigonometric
+                                        Functions
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>II - Algebra</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="maths"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 3 : Algebra
+                                    </div>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="maths"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 4 : Determinants
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>III - Calculus</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="maths"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 5 : Continuity and
+                                        Differentiability
+                                    </div>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="maths"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 6 : Applications of
+                                        Derivatives
+                                    </div>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="maths"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 7 : Integrals
+                                    </div>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="maths"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 8 : Applications of the
+                                        Integrals
+                                    </div>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="maths"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 9 : Differential Equations
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>
+                                        IV - Vectors and Three-Dimensional
+                                        Geometry
+                                    </h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="maths"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 10 : Vectors
+                                    </div>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="maths"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 11 : Three - dimensional
+                                        Geometry
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>V - Linear Programming</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="maths"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 12 : Linear Programming
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>VI - Probability</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="maths"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 13 : Probability
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="subjects">
+                            <h2>Biology</h2>
+                            <div id="units">
+                                <div id="chapters">
+                                    <h4>I - Reproduction</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="maths"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 1 : Reproduction in Organisms
+                                    </div>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="maths"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 2 : Sexual Reproduction in
+                                        Flowering Plants
+                                    </div>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="maths"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 3 : Human Reproduction
+                                    </div>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="maths"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 4 : Reproductive Health
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>II - Genetics and Evolution</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="maths"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 5 : Principles of Inheritance
+                                        and Variation
+                                    </div>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="maths"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 6 : Molecular Basis of
+                                        Inheritance
+                                    </div>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="maths"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 7 : Evolution
+                                    </div>
+                                </div>
+                                <div id="chapters">
+                                    <h4>III - Biology and Human Welfare</h4>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="maths"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 8 : Human Health and Diseases
+                                    </div>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="maths"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 9 : Strategies for Enhancement
+                                        in Food Production
+                                    </div>
+                                    <div id="ch">
+                                        <input
+                                            type="checkbox"
+                                            name="maths"
+                                            id="ch-check"
+                                        />
+                                        Chapter - 10 : Microbes in Human Welfare
+                                    </div>
+                                    <div id="chapters">
+                                        <h4>
+                                            IV - Biotechnology and Its
+                                            Applications
+                                        </h4>
+                                        <div id="ch">
+                                            <input
+                                                type="checkbox"
+                                                name="maths"
+                                                id="ch-check"
+                                            />
+                                            Chapter - 11 : Biotechnology -
+                                            Principles and Processes
+                                        </div>
+                                        <div id="ch">
+                                            <input
+                                                type="checkbox"
+                                                name="maths"
+                                                id="ch-check"
+                                            />
+                                            Chapter - 12 : Biotechnology and its
+                                            Application
+                                        </div>
+                                    </div>
+                                    <div id="chapters">
+                                        <h4>V - Ecology and Environment</h4>
+                                        <div id="ch">
+                                            <input
+                                                type="checkbox"
+                                                name="maths"
+                                                id="ch-check"
+                                            />
+                                            Chapter - 13 : Organisms and
+                                            Populations
+                                        </div>
+                                        <div id="ch">
+                                            <input
+                                                type="checkbox"
+                                                name="maths"
+                                                id="ch-check"
+                                            />
+                                            Chapter - 14 : Ecosystem
+                                        </div>
+                                        <div id="ch">
+                                            <input
+                                                type="checkbox"
+                                                name="maths"
+                                                id="ch-check"
+                                            />
+                                            Chapter - 15 : Biodiversity and its
+                                            Conservation
+                                        </div>
+                                        <div id="ch">
+                                            <input
+                                                type="checkbox"
+                                                name="maths"
+                                                id="ch-check"
+                                            />
+                                            Chapter - 16 : Environmental Issues
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                <li class = "side-baar-list">
-                    <a href="#" id="f-r"><i class="fa-solid fa-coins"></i>Financial Resources</a>
-                </li>
+                <!-- Student profile page start -->
+                <div id="profile-page">
+                    <i
+                        id="profile-back-btn"
+                        class="fa-solid fa-xmark fa-lg"
+                        style="color: #050505"
+                    ></i>
 
-                <li class = "side-baar-list">
-                    <a href="#" id="r-m"><i class="far fa-map"></i>Roadmap</a>
-                </li>
+                    <div class="profile-content-container">
+                        <div class="profile-picture-and-name">
+                            <div class="profile-image-section">
+                                <div class="image-container">
+                                    <img
+                                        src="/public/images/profile-picture.jpg"
+                                        alt="Profile Image"
+                                        id="profile-image"
+                                    />
+                                </div>
+                                <div><span>Student Name</span></div>
+                            </div>
 
-                <li class = "side-baar-list">
-                    <a href="#" id="t-s"><i class="fa-regular fa-file-lines"></i>Test Series</a>
-                </li>
+                            <div class="student-id-section">
+                                <div class="id-value-container">
+                                    <span id="student-id">Student id : </span>
+                                    <span id="id-value">56</span>
+                                </div>
+                                <div class="class-value-container">
+                                    <span id="student-class">Class</span>
+                                    <span id="class-value">9th</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="student-details">
+                            <div class="upper-section">
+                                <h2>Profile details</h2>
 
-                <li class = "side-baar-list">
-                    <a href="#" id="b-k"><i class="fa-solid fa-book"></i>Books</a>
-                </li>
+                                <div>
+                                    <span>Name</span>
+                                    <span id="student-name">Emad</span>
+                                </div>
 
-                <li class = "side-baar-list">
-                    <a href="#" id="q-z"><i class="fa-regular fa-circle-question"></i>Quiz</a>
-                </li >
+                                <div>
+                                    <span>Mobile No</span>
+                                    <span id="student-phone">5487500405</span>
+                                </div>
 
-                <li class = "side-baar-list">
-                    <a href="#" id="h-p"><i class="fa-solid fa-circle-info"></i>Help</a>
-                </li>
+                                <div>
+                                    <span>Email</span>
+                                    <span id="student-email">jsgjfzglf</span>
+                                </div>
 
-                <li class = "side-baar-list">
-                    <a href="#" id="c-u"><i class="fa-regular fa-address-card"></i>Contact Us</a>
-                </li>
-            </ul>
+                                <div>
+                                    <span>Living City</span>
+                                    <span id="student-city">fhgkgk</span>
+                                </div>
+
+                                <div>
+                                    <span>Board</span>
+                                    <span id="student-board">up</span>
+                                </div>
+
+                                <div>
+                                    <span>Language</span>
+                                    <span id="student-language">English</span>
+                                </div>
+                            </div>
+
+                            <div class="down-section">downsection</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- student profile page end -->
+            </div>
         </div>
+    </body>
 
-     
-
-        <div id="hero-section">
-            <div>
-               <!-- Faizan Start writing code from this div take this div as content container -->
-               <h1>ROADMAP</h1>
-            </div>
-         
-            <!-- Student profile page start -->
-            <div id="profile-page">
-                <i  id = "profile-back-btn" class="fa-solid fa-xmark fa-lg" style="color: #050505;"></i>
-
-                <div class="profile-content-container">
-
-                    <div class="profile-picture-and-name">
-
-                        <div class="profile-image-section">
-                            <div class="image-container">
-                                <img src="/public/images/profile-picture.jpg" alt="Profile Image" id="profile-image">
-                            </div>
-                            <div><span>Student Name</span></div>
-                        </div>
-
-                        <div class="student-id-section">
-                            <div class="id-value-container">
-                                <span id="student-id">Student id : </span>
-                                <span id="id-value">56</span>
-
-                            </div>
-                            <div class="class-value-container">
-                                <span id="student-class">Class</span>
-                                <span id="class-value">9th</span>
-                            </div>
-
-                        </div>
-
-
-                    </div>
-                    <div class="student-details">
-                        <div class="upper-section">
-                            <h2>Profile details</h2>
-
-                            <div>
-                                <span>Name</span>
-                                <span id="student-name">Emad</span>
-                            </div>
-
-                            <div>
-                                <span>Mobile No</span>
-                                <span id="student-phone">5487500405</span>
-                            </div>
-
-                            <div>
-                                <span>Email</span>
-                                <span id="student-email">jsgjfzglf</span>
-                            </div>
-
-                            <div>
-                                <span>Living City</span>
-                                <span id="student-city">fhgkgk</span>
-                            </div>
-
-                            <div>
-                                <span>Board</span>
-                                <span id="student-board">up</span>
-                            </div>
-
-                            <div>
-                                <span>Language</span>
-                                <span id="student-language">English</span>
-
-                            </div>
-
-                        </div>
-
-                        <div class="down-section">downsection</div>
-
-                    </div>
-                </div>
-            </div>
-            <!-- student profile page end -->
-
-        </div>
-
-    </div>
-    
-</body>
-
-
-
-<script src="/public/js/profilepage.js"></script>
-<script src="/public/js/side-bar.js"></script>
-
+    <script src="/public/js/profilepage.js"></script>
+    <script src="/public/js/side-bar.js"></script>
 </html>

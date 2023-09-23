@@ -150,3 +150,8 @@
     margin-bottom: -20px;
     cursor: pointer;
 }
+
+#user-icon img {
+    height: 40px;
+    margin-left: 10px;
+}
