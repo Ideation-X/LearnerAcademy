@@ -105,15 +105,14 @@ header::before {
     position: relative;
     
 }
-.user-name-icon 
-{
+.user-name-icon {
     display: flex;
     flex: 1;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     height: 55px;
-    
+}    
 /* Underline Effext */
 
 .middle-header a::before {
