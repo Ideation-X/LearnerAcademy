@@ -60,6 +60,16 @@ header::before {
   font-weight: 700;
 }
 .middle-header {
+
+    flex-direction: row;
+    display : flex;
+    align-items: center;
+    font-weight: 900;
+    justify-content: space-around;
+    flex: 1;
+    border-right: 0.4px solid rgb(215, 215, 215);
+ 
+
   /* background-color:aquamarine; */
   flex-direction: row;
   width: 100%;
@@ -86,6 +96,24 @@ header::before {
   font-weight: 900;
 }
 
+
+.right-header {
+    width : 280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+.user-name-icon 
+{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 55px;
+    
 /* Underline Effext */
 
 .middle-header a::before {

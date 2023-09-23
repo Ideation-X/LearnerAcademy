@@ -56,17 +56,13 @@
     top: 55px;
     right: 0;
     left: 220px;
-    display: none;
     background: white;
     z-index: 50;
     height: calc(100% - 55px);
-  }
-  
-  #content p,
-  h1 {
-    margin: 1.5rem 3rem;
-    text-align: center;
-  }
+
+ 
+}
+
   .go-back-btn {
     padding: 8px;
     border: none;
@@ -75,4 +71,15 @@
   }
   .fa-arrow-left {
     margin-right: 5px;
-  }
+}
+
+#books-conten {
+    background: red;
+    display : flex;
+    flex-direction: row;;
+}
+.go_back_functionallity {
+    display: none;
+}
+
+
