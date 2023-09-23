@@ -1,4 +1,4 @@
-#hero-section {
+#hero-section{
     position: relative;
     top: 55px;
     background-color: blanchedalmond;
@@ -10,6 +10,7 @@
     align-items: center;
     padding-top: 30px;
     z-index: 30;
+
 }
 
 .student-images {
@@ -17,8 +18,9 @@
     width: 800px;
     height: 400px;
     text-align: center;
-    font-size: 30px;
+    font-size: 30px;;
     border-radius: 20px;
+  
 }
 
 #profile-page {
@@ -27,13 +29,14 @@
     top: 0px;
     right: 0;
     left: 0;
-    padding: 10px;
+    padding: 20px;
     z-index: 60;
-    background: red;
-    /* height: calc(100% - 55px); */
+    background: white;
+    padding-bottom: 189px;;
+
 }
 
-.profile-content-container {
+.profile-content-container{
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -43,49 +46,54 @@
     padding-bottom: 70px;
     border-radius: 10px;
     border: 0.3px solid rgb(201, 201, 201);
+    margin-top: -23px;;
+    box-shadow: 0 6px 10px rgb(184, 184, 184);
 }
 
-.profile-picture-and-name {
+.profile-picture-and-name{
     background: white;
     width: 250px;
     height: 230px;
-    border-radius: 6px;
+    border-radius: 6px;;
     box-shadow: 0 6px 10px rgb(184, 184, 184);
+ 
+    
 }
-.profile-image-section {
-    display: flex;
+.profile-image-section{
+    display: flex;;
     flex-direction: column;
-
     align-items: center;
     border-bottom: 1px solid gray;
-    margin-bottom: 5px;
+    margin-bottom: 5px;;
 }
-.image-container {
-    padding-top: 15px;
+.image-container{
+    padding-top: 15px;;
 }
 
-.student-id-section {
-    padding-left: 5px;
+.student-id-section{
+    padding-left: 5px;;
 }
 .student-id-section span {
-    padding: 8px;
+    padding: 8px;;
 }
 .id-value-container,
-.class-value-container {
+.class-value-container{
     display: flex;
     flex-direction: row;
 }
 #student-id,
-#student-class {
+#student-class{
     display: flex;
-    flex: 1;
+    flex: 1
 }
 #id-value,
 #class-value {
     display: flex;
-    flex: 1;
+    flex: 1
+
 }
 .student-details {
+   
     width: 600px;
     height: 400px;
     display: flex;
@@ -95,14 +103,18 @@
     border: 0.3px solid rgb(201, 201, 201);
     box-shadow: 0 6px 10px rgb(184, 184, 184);
 }
-.upper-section {
+.upper-section{
     background: white;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     border-radius: 6px;
+
+
 }
 .upper-section h2 {
     text-align: center;
+   
+
 }
 .upper-section div {
     display: grid;
@@ -111,8 +123,9 @@
     border-bottom: 0.5px solid gray;
     border-top: 0.5px solid gray;
 }
-.down-section {
+.down-section{
     background: lightpink;
+
 }
 
 #student-profile-image {
@@ -122,12 +135,18 @@
     align-items: center;
     justify-content: center;
     padding: 3px;
-    width: 95px;
+    width : 95px;
     height: 95px;
     border-radius: 50px;
+
 }
 #profile-image {
-    width: 90px;
+    width : 90px;
     height: 90px;
-    border-radius: 50px;
+    border-radius: 50px;;
+}
+#profile-back-btn {
+    padding: 6px 8px 6px 8px;
+    margin-bottom: -20px;
+    cursor: pointer;
 }
