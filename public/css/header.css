@@ -24,7 +24,8 @@ header {
   height: 55px;
   flex-direction: row;
   justify-content: space-between;
-  background: transparent;
+
+  background: #2b2b2b;
 }
 
 .blur {
@@ -46,9 +47,7 @@ header::before {
   position: absolute;
   width: 100%;
   height: 100%;
-
   background-image: linear-gradient(to right, #f4c430, white, green);
-=======
   background-image: linear-gradient(to right, #f5a320, white, green);
   filter: blur(8px);
 
@@ -62,6 +61,7 @@ header::before {
   align-items: center;
   padding: 10px;
   font-weight: 700;
+  color: white;
 }
 .middle-header {
 
@@ -89,14 +89,14 @@ header::before {
 .middle-header a {
   position: relative;
   text-decoration: none;
-  color: rgb(60, 60, 60);
+  color: white;
   font-size: 15px;
   padding: 5px 10px;
   transition: all 0.4s ease-in-out;
 }
 
 .middle-header a:hover {
-  color: #ff8352;
+  color: crimson;
   font-weight: 900;
 }
 
@@ -116,7 +116,8 @@ header::before {
     align-items: center;
     justify-content: center;
     height: 55px;
-}    
+}
+    
 /* Underline Effext */
 
 .middle-header a::before {
@@ -126,7 +127,7 @@ header::before {
   bottom: -12px;
   width: 100%;
   height: 3.5px;
-  background-color: rgb(60, 230, 60);
+  background-color: white;
   border-radius: 2px;
   scale: 0 1;
   transition: scale 0.8s;
@@ -146,6 +147,7 @@ header::before {
   align-items: center;
   justify-content: center;
   position: relative;
+  background: white;;
 }
 .user-name-icon {
   display: flex;
