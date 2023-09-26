@@ -31,6 +31,7 @@
   
 }
 
+
 .performance-image-section{
     text-align: center;
     padding: 20px;;
@@ -44,4 +45,30 @@
 #performance-image-container img{
     width: 950px;
     height: 700px;
+#student-profile-image {
+    background: gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    width : 95px;
+    height: 95px;
+    border-radius: 50px;
+
+}
+#profile-image {
+    width : 90px;
+    height: 90px;
+    border-radius: 50px;;
+}
+#profile-back-btn {
+    padding: 6px 8px 6px 8px;
+    margin-bottom: -20px;
+    cursor: pointer;
+}
+
+#user-icon img {
+    height: 40px;
+    margin-left: 10px;
 }
