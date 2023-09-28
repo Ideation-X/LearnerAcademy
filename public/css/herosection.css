@@ -1,133 +1,50 @@
 #hero-section{
     position: relative;
     top: 55px;
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
     right: 0;
     bottom: 0;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding-top: 30px;
     z-index: 30;
 
 }
+.student-images-section{
+    background-color:white;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;;
 
-.student-images {
-    background-color: brown;
-    width: 800px;
-    height: 400px;
+}
+
+#student-images {
+    width: 100%;
+    height: 100%;
     text-align: center;
     font-size: 30px;;
-    border-radius: 20px;
+    border-radius: 5px;
+
+    background-image: url('/public/images/student0.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
   
 }
 
-#profile-page {
-    display: none;
-    position: absolute;
-    top: 0px;
-    right: 0;
-    left: 0;
-    padding: 20px;
-    z-index: 60;
-    background: white;
-    padding-bottom: 189px;;
 
-}
-
-.profile-content-container{
-    display: flex;
-    flex-direction: row;
-    gap: 30px;
-    padding-left: 70px;
-    background: white;
-    padding-top: 70px;
-    padding-bottom: 70px;
-    border-radius: 10px;
-    border: 0.3px solid rgb(201, 201, 201);
-    margin-top: -23px;;
-    box-shadow: 0 6px 10px rgb(184, 184, 184);
-}
-
-.profile-picture-and-name{
-    background: white;
-    width: 250px;
-    height: 230px;
-    border-radius: 6px;;
-    box-shadow: 0 6px 10px rgb(184, 184, 184);
- 
-    
-}
-.profile-image-section{
-    display: flex;;
-    flex-direction: column;
-    align-items: center;
-    border-bottom: 1px solid gray;
-    margin-bottom: 5px;;
-}
-.image-container{
-    padding-top: 15px;;
-}
-
-.student-id-section{
-    padding-left: 5px;;
-}
-.student-id-section span {
-    padding: 8px;;
-}
-.id-value-container,
-.class-value-container{
-    display: flex;
-    flex-direction: row;
-}
-#student-id,
-#student-class{
-    display: flex;
-    flex: 1
-}
-#id-value,
-#class-value {
-    display: flex;
-    flex: 1
-
-}
-.student-details {
-   
-    width: 600px;
-    height: 400px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    border-radius: 6px;
-    border: 0.3px solid rgb(201, 201, 201);
-    box-shadow: 0 6px 10px rgb(184, 184, 184);
-}
-.upper-section{
-    background: white;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    border-radius: 6px;
-
-
-}
-.upper-section h2 {
+.performance-image-section{
     text-align: center;
-   
-
+    padding: 20px;;
+    background-color:rgb(197, 232, 197);
+    height:  700px;
 }
-.upper-section div {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 8px;
-    border-bottom: 0.5px solid gray;
-    border-top: 0.5px solid gray;
+.performance-image-section h1 {
+    font-size: 50px;
+    margin-bottom: 5px;
 }
-.down-section{
-    background: lightpink;
-
-}
-
+#performance-image-container img{
+    width: 950px;
+    height: 700px;
 #student-profile-image {
     background: gray;
     display: flex;

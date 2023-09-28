@@ -46,7 +46,7 @@ crossBtn.addEventListener('click', closeTheProfileWindow)
 // once user click any where on main container, drop-down should be pop out
 
 
- function dropDownPopOut() {
+function dropDownPopOut() {
     const container = document.getElementById('profile-dropdown-container')
     container.style.display = 'none'
     
@@ -57,7 +57,7 @@ mainContainer.addEventListener('click', dropDownPopOut);
 
 
 // if user click any where on the resourse/content page, profile dropdown should be close .
-const resourceContainer = document.getElementById('content')
-resourceContainer.addEventListener('click', dropDownPopOut)
+// const resourceContainer = document.getElementById('content')
+// resourceContainer.onclick()
 
 
