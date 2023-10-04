@@ -6,7 +6,8 @@
     bottom: 0;
     justify-content: center;
     z-index: 30;
-
+    
+    
 }
 .student-images-section{
     background-color:white;
@@ -45,6 +46,7 @@
 #performance-image-container img{
     width: 950px;
     height: 700px;
+}    
 #student-profile-image {
     background: gray;
     display: flex;
