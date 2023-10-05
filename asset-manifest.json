@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/learner-academy/static/css/main.e976bc5b.css",
+    "main.js": "/learner-academy/static/js/main.b058d6e0.js",
+    "static/media/performance.png": "/learner-academy/static/media/performance.72fccf9d84552c66373e.png",
+    "static/media/student0.jpg": "/learner-academy/static/media/student0.5cde1065f39c486ffdd3.jpg",
+    "index.html": "/learner-academy/index.html",
+    "main.e976bc5b.css.map": "/learner-academy/static/css/main.e976bc5b.css.map",
+    "main.b058d6e0.js.map": "/learner-academy/static/js/main.b058d6e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e976bc5b.css",
+    "static/js/main.b058d6e0.js"
+  ]
+}
