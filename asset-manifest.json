@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/learner-academy/static/css/main.e976bc5b.css",
-    "main.js": "/learner-academy/static/js/main.b058d6e0.js",
-    "static/media/performance.png": "/learner-academy/static/media/performance.72fccf9d84552c66373e.png",
-    "static/media/student0.jpg": "/learner-academy/static/media/student0.5cde1065f39c486ffdd3.jpg",
-    "index.html": "/learner-academy/index.html",
-    "main.e976bc5b.css.map": "/learner-academy/static/css/main.e976bc5b.css.map",
-    "main.b058d6e0.js.map": "/learner-academy/static/js/main.b058d6e0.js.map"
+    "main.css": "/LearnerAcademy/static/css/main.18d109a6.css",
+    "main.js": "/LearnerAcademy/static/js/main.48f2fe91.js",
+    "static/media/performance.png": "/LearnerAcademy/static/media/performance.72fccf9d84552c66373e.png",
+    "static/media/student0.jpg": "/LearnerAcademy/static/media/student0.5cde1065f39c486ffdd3.jpg",
+    "index.html": "/LearnerAcademy/index.html",
+    "main.18d109a6.css.map": "/LearnerAcademy/static/css/main.18d109a6.css.map",
+    "main.48f2fe91.js.map": "/LearnerAcademy/static/js/main.48f2fe91.js.map"
   },
   "entrypoints": [
-    "static/css/main.e976bc5b.css",
-    "static/js/main.b058d6e0.js"
+    "static/css/main.18d109a6.css",
+    "static/js/main.48f2fe91.js"
   ]
 }
