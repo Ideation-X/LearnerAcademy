@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# About Section :
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## LearnerAcademy
 
-## Available Scripts
+    * A web base free education academy
 
-In the project directory, you can run:
+# Contributor Guidance
 
-### `npm start`
+## Step 1 : Setup your IDE(vs-code)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+    * first install git from " https://git-scm.com/downloads "
+    * then open the terminal or Bash terminal from your computer on right click form your desktop
+    * Create a folder with any name you like using command eg: ( mkdir ideationX )
+    * now open your vs code and open that folder that you have created in vs code.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Step 2 : How to clone and setup the project
 
-### `npm test`
+    * Copy the SHH " https://github.com/Ideation-X/LearnerAcademy.git " link from CODE button, on right side of add-file
+    * then got to your vs-code and one your terminal in vscode
+    * then write this command eg: git clone <paste ssh link you copied here>
+    * if you face any error then make sure that you have already installed git - To check command ( git ) in
+      terminal of vscode if there is any error then install git first.
+    * Now you can see in vs-code in left sidebar that the project is downloaded in your computer
+    * Now you can make any changes in the project you want
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Step 3 : How to create pull request after making changes
 
-### `npm run build`
+    * In vs-code in side bar go to source-control just down the search icon
+    * then click three dots > click Branch >  click Create Branch > Your Branch name should be your name
+    * now go to that branch > you will see main branch on footer of the vs-code just left in corner and switch to your branch
+    * Write the message by writing your name first like eg: ( shahma : created the side bar )
+    * Now click commit and wait for few seconds
+    * Now go to github and open the repository tha you forked and go to your branch from main branch
+    * and you will see the option of " create pull request " on the side of your branch name
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+MIT License
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Copyright (c) 2023 Ideation-X
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-### `npm run eject`
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
