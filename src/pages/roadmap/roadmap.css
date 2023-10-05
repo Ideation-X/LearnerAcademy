@@ -1,0 +1,45 @@
+body {
+    background: grey;
+}
+
+
+#roadmap h1 {
+    text-align: center;
+    font-size: 3rem;
+    margin: 20px;
+}
+
+.roadmap-subjects {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.roadmap-subjects #subjects {
+    background: white;
+    border-radius: 15px;
+    margin: 30px;
+    padding: 30px;
+    width: 500px;
+}
+
+.roadmap-subjects #subjects h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    border-bottom: 1px solid black;
+}
+
+.roadmap-subjects #subjects #units #chapters {
+    margin: 7px 0px;
+}
+
+.roadmap-subjects #subjects #units #chapters #ch{
+    margin: 3px 20px;
+}
+
+.roadmap-subjects #subjects #units #chapters #ch input{
+    margin-right: 5px;
+}

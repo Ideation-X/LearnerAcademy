@@ -1,0 +1,70 @@
+#hero-section {
+    position: relative;
+    top: 55px;
+    /* background-color: blanchedalmond; */
+    right: 0;
+    bottom: 0;
+    justify-content: center;
+    z-index: 30;
+}
+.student-images-section {
+    background-color: white;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+#student-images {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 5px;
+
+    background-image: url("../../assets/student0.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.performance-image-section {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(197, 232, 197);
+    height: 700px;
+}
+.performance-image-section h1 {
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+#performance-image-container img {
+    width: 950px;
+    height: 700px;
+}
+#student-profile-image {
+    background: gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 3px;
+    width: 95px;
+    height: 95px;
+    border-radius: 50px;
+}
+#profile-image {
+    width: 90px;
+    height: 90px;
+    border-radius: 50px;
+}
+#profile-back-btn {
+    padding: 6px 8px 6px 8px;
+    margin-bottom: -20px;
+    cursor: pointer;
+}
+
+#user-icon img {
+    height: 40px;
+    margin-left: 10px;
+}
