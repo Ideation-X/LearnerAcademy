@@ -1,12 +1,18 @@
 body {
-    background: grey;
+    background: rgb(197, 232, 197);
 }
 
+#roadmap-div {
+    align-items: center;
+}
 
-#roadmap h1 {
+#roadmap #roadmap-div h1 {
+    background-color: white;
+    color: crimson;
     text-align: center;
+    border: 1px solid black;
     font-size: 3rem;
-    margin: 20px;
+    padding: 10px;
 }
 
 .roadmap-subjects {
@@ -19,6 +25,7 @@ body {
 
 .roadmap-subjects #subjects {
     background: white;
+    border: 1px solid black;
     border-radius: 15px;
     margin: 30px;
     padding: 30px;
@@ -36,10 +43,10 @@ body {
     margin: 7px 0px;
 }
 
-.roadmap-subjects #subjects #units #chapters #ch{
+.roadmap-subjects #subjects #units #chapters #ch {
     margin: 3px 20px;
 }
 
-.roadmap-subjects #subjects #units #chapters #ch input{
+.roadmap-subjects #subjects #units #chapters #ch input {
     margin-right: 5px;
 }

@@ -1,0 +1,115 @@
+{
+    "subject": "Physics",
+    "units": {
+        "I": {
+            "name": "Electrostatics",
+            "chapters": [
+                {
+                    "number": 1,
+                    "name": "Electric Charges and Fields"
+                },
+                {
+                    "number": 2,
+                    "name": "Electrostatic Potential and Capacitance"
+                }
+            ]
+        },
+        "II": {
+            "name": "Current Electricity",
+            "chapters": [
+                {
+                    "number": 3,
+                    "name": "Current Electricity"
+                }
+            ]
+        },
+        "III": {
+            "name": "Magnetic Effect of Current & Magnetism",
+            "chapters": [
+                {
+                    "number": 4,
+                    "name": "Moving Charges and Magnetism"
+                },
+                {
+                    "number": 5,
+                    "name": "Magnetism and Matter"
+                }
+            ]
+        },
+        "IV": {
+            "name": "Electromagnetic Induction & Alternating Current",
+            "chapters": [
+                {
+                    "number": 6,
+                    "name": "Electromagnetic Induction"
+                },
+                {
+                    "number": 7,
+                    "name": "Alternating Current"
+                }
+            ]
+        },
+        "V": {
+            "name": "Electromagnetic Waves",
+            "chapters": [
+                {
+                    "number": 8,
+                    "name": "Electromagnetic Waves"
+                }
+            ]
+        },
+        "VI": {
+            "name": "Optics",
+            "chapters": [
+                {
+                    "number": 9,
+                    "name": "Ray Optics and Optical Instruments"
+                },
+                {
+                    "number": 10,
+                    "name": "Wave Optics"
+                }
+            ]
+        },
+        "VII": {
+            "name": "Dual Nature of Matter",
+            "chapters": [
+                {
+                    "number": 11,
+                    "name": "Dual Nature of Radiation and Matter"
+                }
+            ]
+        },
+        "VIII": {
+            "name": "Atoms & Nuclei",
+            "chapters": [
+                {
+                    "number": 12,
+                    "name": "Atoms"
+                },
+                {
+                    "number": 13,
+                    "name": "Nuclei"
+                }
+            ]
+        },
+        "IX": {
+            "name": "Electronic Devices",
+            "chapters": [
+                {
+                    "number": 14,
+                    "name": "Semiconductor Electronics"
+                }
+            ]
+        },
+        "X": {
+            "name": "Communication Systems",
+            "chapters": [
+                {
+                    "number": 15,
+                    "name": "Communication Systems"
+                }
+            ]
+        }
+    }
+}

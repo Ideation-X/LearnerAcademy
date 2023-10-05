@@ -5,7 +5,7 @@ import "./roadmap.css";
 const Roadmap = () => {
     return (
         <div id="roadmap">
-            <div>
+            <div id="roadmap-div">
                 <h1>ROADMAP</h1>
                 <div class="roadmap-subjects">
                     <div id="subjects">
