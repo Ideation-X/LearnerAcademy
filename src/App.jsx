@@ -11,6 +11,8 @@ import Mentor from "./pages/mentor/Mentor";
 import FinancialResources from "./pages/financialResources/FinancialResources";
 import Contact from "./pages/contact/Contact";
 import Profile from "./pages/profile/Profile";
+import SignIn from "./pages/signin/SignIn";
+import SignUp from "./pages/signup/SignUp";
 import "./App.css";
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
         <Router>
             <Navbar />
             <Routes>
+                <Route path="/signin" element={<SignIn />} />
+                <Route path="/signup" element={<SignUp />} />
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/courses" element={<Courses />} />

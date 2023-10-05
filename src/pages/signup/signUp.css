@@ -1,0 +1,87 @@
+.signUp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.signUp .left {
+    width: 40%;
+    justify-content: center;
+    text-align: center;
+}
+
+.signUp .left form {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+.signUp .left form input,
+select {
+    margin: 10px;
+    padding: 10px;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.signUp form button {
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#logo {
+    height: 150px;
+    margin-top: 30px;
+}
+
+.signUp .right {
+    background: skyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    width: 60%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.signUp .right h2 {
+    margin-top: 50px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.signUp .right h1 {
+    margin-top: 50px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.signUp .right p {
+    margin: 20px 50px;
+    font-size: 20px;
+}
+
+.signUp .right button {
+    margin: 50px;
+    padding: 10px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
