@@ -1,0 +1,68 @@
+.about {
+    margin: 10px 0px 8px;
+    color: crimson;
+    text-transform: uppercase;
+    font: 18px solid;
+    padding-left: 10px;
+}
+
+.about-p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.tags-content {
+    width: 350px;
+    height: 1000px;
+    font-size: 16px;
+    color: #eeeeee;
+    background-color: rgb(22 24 29);
+    border-right: 2px solid #656a70;
+}
+
+.books-content {
+    width: 650px;
+    height: 1000px;
+    background-color: rgb(22 24 29) ue;
+}
+
+.class-tags {
+    margin-top: 10px;
+    max-width: 350px;
+    height: 210px;
+    background-color: rgb(22 24 29);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: start;
+    row-gap: 15px;
+}
+
+.tag {
+    width: 90px;
+    height: 40px;
+    background-color: rgb(22 24 29);
+    text-align: center;
+    line-height: 35px;
+    border: 0.5px solid #eeeeee;
+    transition: all 0.4s;
+    border-radius: 5px;
+}
+
+.class {
+    font-size: 18px;
+    color: #eeeeee;
+    text-align: center;
+}
+
+.tag:hover {
+    cursor: pointer;
+    background-color: crimson;
+}
+
+.publication-tags {
+    margin-top: 10px;
+    max-width: 350px;
+    height: 210px;
+}
