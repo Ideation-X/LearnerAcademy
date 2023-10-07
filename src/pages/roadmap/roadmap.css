@@ -16,7 +16,7 @@
     flex-wrap: wrap;
     margin: 20px;
     padding: 20px;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .roadmap-subjects #subjects {
