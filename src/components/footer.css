@@ -1,0 +1,11 @@
+.footer-div {
+    height: 50px;
+    background: rgb(255, 250, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-div p {
+    font-size: 20px;
+}
