@@ -1,0 +1,73 @@
+.about-div .heading {
+    background: #fff;
+    text-align: center;
+}
+
+.about-div .heading h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: crimson;
+    padding: 1rem 0;
+}
+
+.about-div .heading p {
+    font-size: 17px;
+    padding: 5px 25px;
+}
+
+.about-div .about-info {
+    background: rgb(255, 255, 240);
+    padding: 1rem;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.about-div .about-info .info-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+.about-div .about-info .info-text h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+
+.about-div .about-info .info-text p {
+    padding: 0px 10px;
+    font-size: 17px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.about-div .about-info .info-img img {
+    height: 500px;
+    margin: 20px 40px;
+    border-radius: 7px;
+}
+
+.about-div .stats-list {
+    background: rgb(248, 248, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.about-div .stats-list .stats h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    padding: 1rem 0;
+    color: crimson;
+}
+
+.about-div .stats-list .stats span {
+    font-size: 20px;
+    color: #333;
+    font-weight: 500;
+}
