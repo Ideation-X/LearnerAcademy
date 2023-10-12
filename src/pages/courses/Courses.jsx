@@ -4,7 +4,12 @@ import "./courses.css";
 
 const Courses = () => {
     return (
-        <div>
+        <div className="courses-div">
+            <div className="heading">
+                <h1>Courses</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto, praesentium.</p>
+            </div>
+
             <div class="tags-content">
                 <h1 class="about">About</h1>
                 <p class="about-p">

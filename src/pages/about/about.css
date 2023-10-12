@@ -1,6 +1,7 @@
 .about-div .heading {
     background: #fff;
     text-align: center;
+    border-bottom: 0.5px solid black;
 }
 
 .about-div .heading h1 {
