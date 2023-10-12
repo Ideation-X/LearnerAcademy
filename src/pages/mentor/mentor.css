@@ -1,0 +1,59 @@
+.mentor-div {
+    background: #f5f5f5;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mentor-div .heading {
+    background: #fff;
+    text-align: center;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+
+.mentor-div .heading h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: crimson;
+    padding: 1rem 0;
+}
+
+.mentor-div .heading p {
+    font-size: 17px;
+    padding: 20px 0;
+    font-weight: 500;
+}
+
+.mentor-div .mentor-info {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+
+.mentor-div .mentor-info .mentor {
+    background: white;
+    padding: 30px;
+    text-align: center;
+    border: 0.5px solid gray;
+    margin: 20px 30px;
+    padding: 30px;
+}
+
+.mentor-div .mentor-info .mentor img {
+    height: 400px;
+}
+
+.mentor-div .mentor-info .mentor h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.mentor-div .mentor-info .mentor p{
+    font-size: 15px;
+    font-weight: 500;
+    padding: 10px 0;
+}
