@@ -16,6 +16,8 @@
     align-items: center;
     justify-content: space-between;
     height: 60px;
+    z-index: 90;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .web-name {
@@ -39,6 +41,7 @@ li {
 a {
     text-decoration: none;
     color: #fff;
+    font-size: 15px;
 }
 
 a:hover {
