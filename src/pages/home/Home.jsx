@@ -8,9 +8,7 @@ const Home = () => {
         <div>
             <div id="hero-section">
                 <div class="student-images-section">
-                    <div id="student-images">
-                       
-                    </div>
+                    <div id="student-images"></div>
                 </div>
                 <div class="performance-image-section">
                     <h1>My Learning </h1>
