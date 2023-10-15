@@ -9,7 +9,7 @@ const Home = () => {
             <div id="hero-section">
                 <div class="student-images-section">
                     <div id="student-images">
-                        <p>Hello student</p>
+                       
                     </div>
                 </div>
                 <div class="performance-image-section">

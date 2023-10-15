@@ -1,7 +1,6 @@
 #hero-section {
     position: relative;
     top: 55px;
-    /* background-color: blanchedalmond; */
     right: 0;
     bottom: 0;
     justify-content: center;
@@ -9,11 +8,11 @@
 }
 .student-images-section {
     background-color: white;
-    height: 450px;
+    height: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 5px;
+  
 }
 
 #student-images {
@@ -21,8 +20,6 @@
     height: 100%;
     text-align: center;
     font-size: 30px;
-    border-radius: 5px;
-
     background-image: url("../../assets/student0.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -32,7 +29,7 @@
     text-align: center;
     padding: 20px;
     background-color: rgb(197, 232, 197);
-    height: 700px;
+    height: 750px;
 }
 .performance-image-section h1 {
     font-size: 50px;
@@ -40,7 +37,7 @@
 }
 #performance-image-container img {
     width: 950px;
-    height: 700px;
+    height: 650px;
 }
 #student-profile-image {
     background: gray;
