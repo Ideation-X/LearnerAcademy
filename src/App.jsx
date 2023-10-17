@@ -1,5 +1,10 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Navigate,
+} from "react-router-dom";
 
 import Navbar from "./components/Navbar";
 import Home from "./pages/home/Home";
@@ -21,9 +26,8 @@ function App() {
         <Router>
             <Navbar />
             <Routes>
-                <Route path="/signin" element={<SignIn />} />
-                <Route path="/signup" element={<SignUp />} />
                 <Route path="/" element={<Home />} />
+                <Route path="/LearnerAcademy" element={<Navigate to="/" />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/courses" element={<Courses />} />
                 <Route path="/roadmap" element={<Roadmap />} />
@@ -35,6 +39,8 @@ function App() {
                 />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/profile" element={<Profile />} />
+                <Route path="/signin" element={<SignIn />} />
+                <Route path="/signup" element={<SignUp />} />
             </Routes>
             <Footer />
         </Router>
