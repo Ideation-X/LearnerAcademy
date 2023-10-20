@@ -17,11 +17,11 @@
 }
 
 .about {
-    margin: 10px 0px 8px;
     color: crimson;
     text-transform: uppercase;
     font: 18px solid;
     padding-left: 10px;
+    margin: 0;
 }
 
 .about-p {
