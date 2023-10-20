@@ -63,7 +63,6 @@
 .about-div .stats-list .stats h1 {
     font-size: 3rem;
     font-weight: 900;
-    padding: 1rem 0;
     color: crimson;
 }
 
@@ -71,4 +70,13 @@
     font-size: 20px;
     color: #333;
     font-weight: 500;
+}
+.stats-list .stats {    
+    background-color: rgb(255, 255, 240);
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 200px;
+    border-radius: 10px;
+    padding-top: 19px;;
+    padding-bottom: 19px;
 }
