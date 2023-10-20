@@ -6,7 +6,7 @@ const Roadmap = () => {
     return (
         <div id="roadmap">
             <div id="roadmap-div">
-                <h1>ROADMAP</h1>
+                <h1>Roadmap</h1>
                 <div class="roadmap-subjects">
                     <div id="subjects">
                         <h2>Physics</h2>

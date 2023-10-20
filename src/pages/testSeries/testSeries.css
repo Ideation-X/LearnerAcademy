@@ -1,0 +1,19 @@
+.testSeries-div .heading {
+    background: #fff;
+    text-align: center;
+    border-bottom: 0.5px solid black;
+    width: 100%;
+}
+
+.testSeries-div .heading h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: crimson;
+    padding: 5px 0;
+}
+
+.testSeries-div .heading p {
+    font-size: 17px;
+    padding: 10px 0;
+    font-weight: 500;
+}
