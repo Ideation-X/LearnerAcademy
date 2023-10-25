@@ -1,7 +1,7 @@
 .about-div .heading {
     background: #fff;
     text-align: center;
-    border-bottom: 0.5px solid black;
+    
 }
 
 .about-div .heading h1 {
@@ -67,12 +67,13 @@
 }
 
 .about-div .stats-list .stats span {
-    font-size: 20px;
+    font-size: 16px;
     color: #333;
     font-weight: 500;
+    font-family:sans-serif;
 }
 .stats-list .stats {    
-    background-color: rgb(255, 255, 240);
+    background-color: rgb(255, 201, 100);
     padding-left: 10px;
     padding-right: 10px;
     width: 200px;
